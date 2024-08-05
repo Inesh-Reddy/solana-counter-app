@@ -1,3 +1,50 @@
+# Compiled binary and build artifacts
+target/
+*.rs.bk
+
+# Rust-specific
+Cargo.lock
+*.rlib
+
+# Dependency directories
+**/target/
+**/Cargo.lock
+
+# Rust IDEs
+.idea/
+.vscode/
+*.suo
+*.user
+*.userossc
+*.sln
+*.csproj
+*.db
+*.iml
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.swp
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node.js specific (if applicable)
+node_modules/
+npm-debug.log
+
+# System files
+*.swp
+*.swo
+
+# Anchor-specific
+.Anchor.toml
+.anchor/
 
 .anchor
 .DS_Store
